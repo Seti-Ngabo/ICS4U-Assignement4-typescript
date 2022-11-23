@@ -1,5 +1,5 @@
 /**
- * This program reads a single integer from the user 
+ * This program reads a single integer from the user
  *  and prints stars
  *
  * By:      Seti Ngabo
@@ -22,7 +22,7 @@ const prompt = promptSync()
 function stars(integer: number, starInt: number = 0) {
   let compString: string = ''
 
-// forloop
+  // forloop
   for (let count: number = 0; count < starInt; count++) {
     compString += ' '
   }
